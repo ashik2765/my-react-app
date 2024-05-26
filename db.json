@@ -1,0 +1,69 @@
+{
+    "shoe": [
+        {
+            "id": "1",
+            "name": "Classic Sneaker",
+            "image": "https://i.ibb.co/DrVHry9/men-shoes-3.jpg",
+            "description": "A timeless classic sneaker that combines comfort with style. Perfect for everyday wear.",
+            "price": 79.99,
+            "categories": [
+                "sneaker",
+                "casual",
+                "unisex"
+            ],
+            "views": 150
+        },
+        {
+            "id": "2",
+            "name": "Running Pro",
+            "image": "https://i.ibb.co/JmgPDgV/woman-shoes.jpg",
+            "description": "High-performance running shoes designed for maximum speed and endurance.",
+            "price": 120.00,
+            "categories": [
+                "running",
+                "sports",
+                "men"
+            ],
+            "views": 250
+        },
+        {
+            "id": "3",
+            "name": "Elegant Loafers",
+            "image": "https://i.ibb.co/5jLY1Sw/men-shoes-1.jpg",
+            "description": "Sophisticated loafers for formal occasions. Made from premium leather for unmatched elegance.",
+            "price": 99.99,
+            "categories": [
+                "loafers",
+                "formal",
+                "women"
+            ],
+            "views": 180
+        },
+        {
+            "id": "4",
+            "name": "Trail Blazer",
+            "image": "https://i.ibb.co/6w22Nxq/male-background-beauty-modern-leather.jpg",
+            "description": "Durable hiking boots designed to withstand the toughest terrains. Waterproof and breathable.",
+            "price": 139.99,
+            "categories": [
+                "hiking",
+                "outdoor",
+                "unisex"
+            ],
+            "views": 220
+        },
+        {
+            "id": "5",
+            "name": "Beach Flip-Flops",
+            "image": "https://i.ibb.co/DrVHry9/men-shoes-3.jpg",
+            "description": "Comfortable and stylish flip-flops, perfect for a day at the beach.",
+            "price": 24.99,
+            "categories": [
+                "flip-flops",
+                "casual",
+                "unisex"
+            ],
+            "views": 130
+        }
+    ]
+}
