@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 export default function ProductRow({ item }) {
 
@@ -8,10 +9,30 @@ export default function ProductRow({ item }) {
     const handleDelete = () => {
         console.log('clicked')
     }
-    const handleEdit = () => {
+    const handleEdit = async () => {
         console.log('clicked')
+        const { value: formValues } = await Swal.fire({
+            title: "Multiple inputs",
+            html: `
+              <input id="swal-input1" class="swal2-input">
+              <input id="swal-input2" class="swal2-input">
+              <input id="swal-input3" class="swal2-input">
+            `,
+            focusConfirm: false,
+            preConfirm: () => {
+                return [
+                    document.getElementById("swal-input1").value,
+                    document.getElementById("swal-input2").value,
+                    document.getElementById("swal-input3").value
+                ];
+            }
+        });
+        if (formValues) {
+            <h1>Done</h1>
+        }
+        console.log(formValues)
     }
-
+    
     return (
         <tr>
             <td>1</td>
