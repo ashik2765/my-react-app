@@ -10,6 +10,7 @@ import DashboardHome from "../pages/dashboard/DashboardHome";
 import AllProducts from "../pages/dashboard/AllProducts";
 import AddProduct from "../pages/dashboard/AddProduct";
 import ProductDetails from "../pages/home/ProductDetails";
+import EditProduct from "../pages/dashboard/EditProduct";
 
 export const router = createBrowserRouter([
   {
@@ -19,12 +20,12 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader:()=>fetch("http://localhost:3000/shoe"),
+        loader: () => fetch("http://localhost:3000/shoe"),
       },
       {
-        path:"/product/:id",
-        element:<ProductDetails></ProductDetails>,
-        loader:({params})=>fetch(`http://localhost:3000/shoe/${params.id}`)
+        path: "/product/:id",
+        element: <ProductDetails></ProductDetails>,
+        loader: ({ params }) => fetch(`http://localhost:3000/shoe/${params.id}`)
       }
     ],
   },
@@ -39,19 +40,24 @@ export const router = createBrowserRouter([
   {
     path: "dashboard",
     element: <DashboardLayout></DashboardLayout>,
-    children:[
+    children: [
       {
-        index:true,
-        element:<DashboardHome></DashboardHome>,
+        index: true,
+        element: <DashboardHome></DashboardHome>,
       },
       {
-        path:"all-products",
-        element:<AllProducts></AllProducts>
+        path: "all-products",
+        element: <AllProducts></AllProducts>
       },
       {
-        path:"add-product",
-        element:<AddProduct></AddProduct>
-      }
+        path: "all-products/edit/:id",
+        element: <EditProduct></EditProduct>,
+        loader: ({ params }) => fetch(`http://localhost:3000/shoe/${params.id}`)
+      },
+      {
+        path: "add-product",
+        element: <AddProduct></AddProduct>
+      },
     ]
   }
 ]);

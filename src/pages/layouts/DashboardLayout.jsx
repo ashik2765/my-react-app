@@ -19,6 +19,8 @@ export default function DashboardLayout() {
                     {/* Sidebar content here */}
                     <li><Link to="/dashboard/all-products">All Products</Link></li>
                     <li><Link to="/dashboard/add-product">Add a product</Link></li>
+                    <div className="divider"></div>
+                    <li><Link to="/">Home</Link></li>
                 </ul>
 
             </div>

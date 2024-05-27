@@ -1,96 +1,22 @@
 {
   "shoe": [
     {
-      "id": "1",
-      "name": "Classic Sneaker",
-      "image": "https://i.ibb.co/DrVHry9/men-shoes-3.jpg",
-      "description": "A timeless classic sneaker that combines comfort with style. Perfect for everyday wear.",
-      "price": 79.99,
-      "categories": [
-        "sneaker",
-        "casual",
-        "unisex"
-      ],
-      "brand": "apex"
-    },
-    {
-      "id": "2",
-      "name": "Running Pro",
-      "image": "https://i.ibb.co/JmgPDgV/woman-shoes.jpg",
-      "description": "High-performance running shoes designed for maximum speed and endurance.",
-      "price": 120,
-      "categories": [
-        "running",
-        "sports",
-        "men"
-      ],
-      "brand": "pagasas"
-    },
-    {
       "id": "3",
-      "name": "Elegant Loafers",
-      "image": "https://i.ibb.co/5jLY1Sw/men-shoes-1.jpg",
-      "description": "Sophisticated loafers for formal occasions. Made from premium leather for unmatched elegance.",
-      "price": 99.99,
-      "categories": [
-        "loafers",
-        "formal",
-        "women"
-      ],
-      "brand": "loto"
+      "brand": "adidas",
+      "name": "Adidas Originals Stan Smith",
+      "categories": "Casual Sneakers",
+      "price": "23",
+      "image": "https://i.ibb.co/6w22Nxq/male-background-beauty-modern-leather.jpg",
+      "description": "Classic style meets modern comfort with the Adidas Originals Stan Smith sneakers. These iconic shoes boast a sleek, minimalist design with a smooth leather upper and perforated three stripes for a clean look. The OrthoLite® sockliner ensures all-day comfort, while the rubber cupsole provides sturdy support and traction. Perfect for everyday wear, the Stan Smith sneakers effortlessly complement any casual outfit, making them a timeless addition to your wardrobe."
     },
     {
       "id": "4",
-      "name": "Trail Blazer",
-      "image": "https://i.ibb.co/6w22Nxq/male-background-beauty-modern-leather.jpg",
-      "description": "Durable hiking boots designed to withstand the toughest terrains. Waterproof and breathable.",
-      "price": 139.99,
-      "categories": [
-        "hiking",
-        "outdoor",
-        "unisex"
-      ],
-      "brand": "jenny"
-    },
-    {
-      "id": "5",
-      "name": "Beach Flip-Flops",
-      "image": "https://i.ibb.co/DrVHry9/men-shoes-3.jpg",
-      "description": "Comfortable and stylish flip-flops, perfect for a day at the beach.",
-      "price": 24.99,
-      "categories": [
-        "flip-flops",
-        "casual",
-        "unisex"
-      ],
-      "brand": "bata"
-    },
-    {
-      "id": "6",
-      "brand": "walker",
-      "name": "sparkel",
-      "categories": "casual",
-      "price": "10",
-      "image": "https://i.ibb.co/r5j0PBn/men-shoes.jpg",
-      "description": "This is the game changing shoe. comfortable, affordable."
-    },
-    {
-      "id": "7",
-      "brand": "pagasas",
-      "name": "mavric",
-      "categories": "sports",
-      "price": "15",
-      "image": "https://i.ibb.co/r5j0PBn/men-shoes.jpg",
-      "description": "Hello huney"
-    },
-    {
-      "id": "8",
-      "brand": "walton",
-      "name": "lily",
-      "categories": "casual",
-      "price": "-1",
-      "image": "https://i.ibb.co/r5j0PBn/men-shoes.jpg",
-      "description": "New Arrival !"
+      "brand": "apex",
+      "name": "Merrell Moab 3 Mid Waterproof",
+      "categories": "Hiking Boots",
+      "price": "60",
+      "image": "https://i.ibb.co/5jLY1Sw/men-shoes-1.jpg",
+      "description": "Tackle any trail with confidence in the Merrell Moab 3 Mid Waterproof hiking boots. Built to withstand rugged terrain, these boots feature a waterproof membrane to keep your feet dry and comfortable in wet conditions. The durable leather and mesh upper offer breathability and protection, while the Vibram® TC5+ outsole delivers exceptional grip on both wet and dry surfaces. With a supportive midsole and a cushioned heel, the Moab 3 Mid provides superior stability and comfort for all your outdoor adventures."
     }
   ]
 }

@@ -12,6 +12,10 @@ export default function AllProducts() {
             })
     }, []);
 
+    const handleDelete = (id) => {
+        setProducts(products.filter(product => product.id !== id))
+    }
+
     return (
 
         <div className="overflow-x-auto w-full mx-5">
@@ -28,7 +32,7 @@ export default function AllProducts() {
                 </thead>
                 <tbody>
                     {
-                        products.map(item => <ProductRow key={item.id} item={item}></ProductRow>)
+                        products.map(item => <ProductRow key={item.id} item={item} onDelete={handleDelete}></ProductRow>)
                     }
                 </tbody>
 
