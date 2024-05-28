@@ -10,13 +10,49 @@
       "description": "Classic style meets modern comfort with the Adidas Originals Stan Smith sneakers. These iconic shoes boast a sleek, minimalist design with a smooth leather upper and perforated three stripes for a clean look. The OrthoLite® sockliner ensures all-day comfort, while the rubber cupsole provides sturdy support and traction. Perfect for everyday wear, the Stan Smith sneakers effortlessly complement any casual outfit, making them a timeless addition to your wardrobe."
     },
     {
-      "id": "4",
-      "brand": "apex",
+      "id": "1",
+      "brand": "Nike",
+      "name": "Nike Air Zoom Pegasus 39",
+      "categories": "Running Shoes",
+      "price": "30",
+      "image": "https://i.ibb.co/r5j0PBn/men-shoes.jpg",
+      "description": "Experience unparalleled comfort and responsiveness with the Nike Air Zoom Pegasus 39. Designed for runners of all levels, these shoes feature a lightweight mesh upper that enhances breathability and support. The full-length Zoom Air unit provides exceptional cushioning, while the Flywire cables ensure a secure, locked-in fit. With a durable rubber outsole offering excellent traction on various surfaces, the Pegasus 39 is your perfect partner for any run, from short sprints to long-distance marathons."
+    },
+    {
+      "id": "2",
+      "brand": "Adidas",
+      "name": "Adidas Originals Stan Smith",
+      "categories": "Casual Sneakers",
+      "price": "26",
+      "image": "https://i.ibb.co/6w22Nxq/male-background-beauty-modern-leather.jpg",
+      "description": "Classic style meets modern comfort with the Adidas Originals Stan Smith sneakers. These iconic shoes boast a sleek, minimalist design with a smooth leather upper and perforated three stripes for a clean look. The OrthoLite® sockliner ensures all-day comfort, while the rubber cupsole provides sturdy support and traction. Perfect for everyday wear, the Stan Smith sneakers effortlessly complement any casual outfit, making them a timeless addition to your wardrobe."
+    },
+    {
+      "id": "5",
+      "brand": "Merrell Moab",
       "name": "Merrell Moab 3 Mid Waterproof",
       "categories": "Hiking Boots",
-      "price": "60",
+      "price": "29",
       "image": "https://i.ibb.co/5jLY1Sw/men-shoes-1.jpg",
       "description": "Tackle any trail with confidence in the Merrell Moab 3 Mid Waterproof hiking boots. Built to withstand rugged terrain, these boots feature a waterproof membrane to keep your feet dry and comfortable in wet conditions. The durable leather and mesh upper offer breathability and protection, while the Vibram® TC5+ outsole delivers exceptional grip on both wet and dry surfaces. With a supportive midsole and a cushioned heel, the Moab 3 Mid provides superior stability and comfort for all your outdoor adventures."
+    },
+    {
+      "id": "6",
+      "brand": "Clarks",
+      "name": "Clarks Tilden Cap",
+      "categories": "Dress Shoes",
+      "price": "20",
+      "image": "https://i.ibb.co/JmgPDgV/woman-shoes.jpg",
+      "description": "Elevate your formal attire with the Clarks Tilden Cap dress shoes. Crafted from premium leather, these shoes exude sophistication and elegance. The cap-toe design and sleek silhouette make them perfect for business meetings, weddings, and other formal occasions. Featuring a cushioned OrthoLite® footbed and soft fabric lining, the Tilden Cap ensures all-day comfort. The durable rubber outsole provides excellent traction, making these shoes as practical as they are stylish."
+    },
+    {
+      "id": "7",
+      "brand": "Reebok",
+      "name": "Reebok Nano X1",
+      "categories": "Athletic Shoes",
+      "price": "40",
+      "image": "https://i.ibb.co/5jLY1Sw/men-shoes-1.jpg",
+      "description": "Push your limits with the Reebok Nano X1 athletic shoes, designed for high-intensity training and versatile workouts. These shoes feature a Flexweave® woven textile upper for breathability and support, while the Floatride Energy Foam provides lightweight cushioning and responsiveness. The EVA midsole ensures stability during dynamic movements, and the rubber outsole offers superior grip on various surfaces. Whether you're lifting weights, running, or doing HIIT workouts, the Nano X1 delivers the performance and comfort you need."
     }
   ]
 }

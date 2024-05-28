@@ -13,8 +13,6 @@ export default function ProductRow({ item, onDelete }) {
             .then(res => res.json())
             .then(data => {
                 onDelete(id);
-                console.log(data)
-
             })
     };
     
@@ -32,9 +30,9 @@ export default function ProductRow({ item, onDelete }) {
             <td>{price}</td>
             <td>
                 <div className="flex justify-evenly">
-                    <button className="btn btn-sm"><Link to={`/product/${id}`}>See details</Link></button>
-                    <button className="btn btn-xs"><Link to={`edit/${id}`}>Edit</Link></button>
-                    <button onClick={handleDelete} className="btn btn-ghost btn-xs">Delete</button>
+                    <button className="btn btn-sm btn-primary"><Link to={`/product/${id}`}>See details</Link></button>
+                    <button className="btn btn-sm"><Link to={`edit/${id}`}>Edit</Link></button>
+                    <button onClick={handleDelete} className="btn btn-sm btn-error text-white">Delete</button>
                 </div>
             </td>
         </tr>

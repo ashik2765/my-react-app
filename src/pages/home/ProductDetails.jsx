@@ -3,7 +3,6 @@ import { useLoaderData } from 'react-router-dom'
 
 export default function ProductDetails() {
     const data = useLoaderData();
-    console.log(data)
     const { id, name, description, image, price, categories } = data;
     return (
         <div className="card bg-base-100 shadow-xl">

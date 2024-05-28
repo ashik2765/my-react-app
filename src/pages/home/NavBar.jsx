@@ -11,9 +11,7 @@ export default function NavBar() {
         <li><Link to='/dashboard'>Dashboard</Link></li>
 
     </>
-    const handleLogOut = () => {
-        logOut();
-    }
+   
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
@@ -32,13 +30,21 @@ export default function NavBar() {
                     {navOptions}
                 </ul>
             </div>
+
+
             <div className="navbar-end">
+                <div className="avatar me-5">
+                    <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                        <img src={user?.photoURL} />
+                    </div>
+                </div>
                 {
-                    user ? <><button onClick={handleLogOut} className="btn btn-circle btn-outline">
-                            Log Out
+                    user ? <><button onClick={()=>logOut()} className="btn btn-ghost">
+                        Log Out
                     </button></>
                         : <><Link to="/login" className="btn">Login</Link></>
                 }
+
             </div>
         </div>
     )

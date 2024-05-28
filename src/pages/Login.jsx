@@ -5,7 +5,7 @@ import { AuthContext } from '../authProvider/AuthProvider';
 
 export default function Login() {
 
-  const { user, signIn } = useContext(AuthContext);
+  const {signIn } = useContext(AuthContext);
   const handleLogin = (e) => {
     e.preventDefault()
     const form = e.target;

@@ -4,19 +4,16 @@ import SocialLogin from './SocialLogin';
 import { AuthContext } from '../authProvider/AuthProvider';
 
 export default function Registration() {
-    const { user, createUser } = useContext(AuthContext);
+    const {createUser } = useContext(AuthContext);
 
     const handleRegistration = (e) => {
         e.preventDefault()
         const form = e.target;
         const name = form.name.value;
-        const image = form.imgURL.value;
         const email = form.email.value;
         const password = form.password.value;
-        const userInfo = { name, email, password }
-
+        
         createUser(email, password);
-
     }
 
     return (
