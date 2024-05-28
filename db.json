@@ -1,24 +1,6 @@
 {
   "shoe": [
     {
-      "id": "3",
-      "brand": "adidas",
-      "name": "Adidas Originals Stan Smith",
-      "categories": "Casual Sneakers",
-      "price": "23",
-      "image": "https://i.ibb.co/6w22Nxq/male-background-beauty-modern-leather.jpg",
-      "description": "Classic style meets modern comfort with the Adidas Originals Stan Smith sneakers. These iconic shoes boast a sleek, minimalist design with a smooth leather upper and perforated three stripes for a clean look. The OrthoLite® sockliner ensures all-day comfort, while the rubber cupsole provides sturdy support and traction. Perfect for everyday wear, the Stan Smith sneakers effortlessly complement any casual outfit, making them a timeless addition to your wardrobe."
-    },
-    {
-      "id": "1",
-      "brand": "Nike",
-      "name": "Nike Air Zoom Pegasus 39",
-      "categories": "Running Shoes",
-      "price": "30",
-      "image": "https://i.ibb.co/r5j0PBn/men-shoes.jpg",
-      "description": "Experience unparalleled comfort and responsiveness with the Nike Air Zoom Pegasus 39. Designed for runners of all levels, these shoes feature a lightweight mesh upper that enhances breathability and support. The full-length Zoom Air unit provides exceptional cushioning, while the Flywire cables ensure a secure, locked-in fit. With a durable rubber outsole offering excellent traction on various surfaces, the Pegasus 39 is your perfect partner for any run, from short sprints to long-distance marathons."
-    },
-    {
       "id": "2",
       "brand": "Adidas",
       "name": "Adidas Originals Stan Smith",
@@ -53,6 +35,24 @@
       "price": "40",
       "image": "https://i.ibb.co/5jLY1Sw/men-shoes-1.jpg",
       "description": "Push your limits with the Reebok Nano X1 athletic shoes, designed for high-intensity training and versatile workouts. These shoes feature a Flexweave® woven textile upper for breathability and support, while the Floatride Energy Foam provides lightweight cushioning and responsiveness. The EVA midsole ensures stability during dynamic movements, and the rubber outsole offers superior grip on various surfaces. Whether you're lifting weights, running, or doing HIIT workouts, the Nano X1 delivers the performance and comfort you need."
+    },
+    {
+      "id": "1",
+      "brand": "Nike",
+      "name": "Nike Air Zoom Pegasus 39",
+      "categories": "Running Shoes",
+      "price": "20",
+      "image": "https://i.ibb.co/6w22Nxq/male-background-beauty-modern-leather.jpg",
+      "description": "Experience unparalleled comfort and responsiveness with the Nike Air Zoom Pegasus 39. Designed for runners of all levels, these shoes feature a lightweight mesh upper that enhances breathability and support. The full-length Zoom Air unit provides exceptional cushioning, while the Flywire cables ensure a secure, locked-in fit. With a durable rubber outsole offering excellent traction on various surfaces, the Pegasus 39 is your perfect partner for any run, from short sprints to long-distance marathons."
+    },
+    {
+      "id": "2",
+      "brand": "Adidas",
+      "name": "Adidas Originals Stan Smith",
+      "categories": "Casual Sneakers",
+      "price": "45",
+      "image": "https://i.ibb.co/6w22Nxq/male-background-beauty-modern-leather.jpg",
+      "description": "Classic style meets modern comfort with the Adidas Originals Stan Smith sneakers. These iconic shoes boast a sleek, minimalist design with a smooth leather upper and perforated three stripes for a clean look. The OrthoLite® sockliner ensures all-day comfort, while the rubber cupsole provides sturdy support and traction. Perfect for everyday wear, the Stan Smith sneakers effortlessly complement any casual outfit, making them a timeless addition to your wardrobe."
     }
   ]
 }
